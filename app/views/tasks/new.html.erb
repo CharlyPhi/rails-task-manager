@@ -1,0 +1,5 @@
+<%= form_with model: @task do |t| %>
+  <%= t.label :title %>
+  <%= t.text_field :details %>
+  <%= t.boolean :completed %>
+<% end %>
